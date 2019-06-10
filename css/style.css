@@ -1,0 +1,38 @@
+body {
+    background-image: url("../images/sayagata.png");
+    background-repeat: repeat;
+}
+
+img { 
+    opacity: 1; 
+}
+
+img:hover { 
+    opacity: 0.8;
+}
+
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #1773a8;
+    border-color: #2294d6;
+    /*background-color: #212529;
+    border-color: #32383e;*/
+}
+
+table  th:nth-child(1){
+    border-radius: 3px 0px 0px 3px;
+}
+table  th:nth-last-child(1){
+    border-radius: 0px 3px 3px 0px;
+}
+
+.ortala {
+    float: none; 
+    margin: 0 auto;
+}
+
+.modal-ku {
+  width: 350px;
+  margin: auto;
+}
